@@ -1,3 +1,7 @@
+<?php
+header('Location: ../../index.php?page=register');
+exit;
+?>
 <!DOCTYPE html>
 <html>
 <head>

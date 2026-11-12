@@ -1,4 +1,6 @@
-<?php 
+<?php
+header('Location: ../../index.php?page=appointments');
+exit;
    session_start();
    include "db_conn.php";
    if (isset($_SESSION['username'])) {   ?>
