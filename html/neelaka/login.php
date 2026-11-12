@@ -1,4 +1,6 @@
-<?php 
+<?php
+header('Location: ../../index.php?page=login');
+exit;
    session_start();
    if (!isset($_SESSION['username']) && !isset($_SESSION['email'])) { ?>
 <!DOCTYPE html>

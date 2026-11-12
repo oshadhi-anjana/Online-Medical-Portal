@@ -1,3 +1,8 @@
+<?php
+// Keep existing bookmarks working while the shared portal lives at the root.
+header('Location: ../index.php');
+exit;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
